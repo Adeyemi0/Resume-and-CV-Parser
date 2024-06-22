@@ -1,3 +1,4 @@
+protobuf==4.27.1
 PyPDF2==3.0.1
 python_docx==1.1.2
 streamlit==1.29.0
