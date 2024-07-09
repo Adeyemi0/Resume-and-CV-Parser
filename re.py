@@ -71,17 +71,6 @@ This tool helps recruiters and hiring managers quickly evaluate how well a candi
 5. **Get Results**: The tool will analyze the CV against the job description and provide a match score and detailed feedback.
 6. **Receive Feedback**: Enter your email to get a detailed report sent directly to you or to receive CVs that meet your conditions.
 
-### Adjusting Weights (See the left panel)
-
-Adjusting weights means telling the tool how important each part of the job description is to you. For example:
-
-- **Title Weight**: If you think it's very important for the candidate to have a specific job title, you might set this to a high value, like 80%.
-- **Experience Weight**: If having a certain amount of experience is crucial, you might also set this to a high value.
-- **Skills Weight**: If specific skills are critical, adjust this slider to reflect their importance.
-- **Education Weight**: If the educational background is less important, you might set this to a lower value.
-- **Certifications Weight**: Set this higher if certain certifications are necessary for the job.
-- **Personality Weight**: If you believe the candidate's personality is key to success in the role, increase this value.
-- **Quantifiable Results Weight**: If measurable achievements are a significant indicator of success, set this higher.
 
 By adjusting these sliders, you customize how the tool evaluates each CV to match your priorities for the job.
 
