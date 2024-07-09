@@ -72,8 +72,6 @@ This tool helps recruiters and hiring managers quickly evaluate how well a candi
 6. **Receive Feedback**: Enter your email to get a detailed report sent directly to you or to receive CVs that meet your conditions.
 
 
-By adjusting these sliders, you customize how the tool evaluates each CV to match your priorities for the job.
-
 Give it a try to see how well a candidate fits your job requirements!
 
 """)
