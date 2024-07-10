@@ -69,7 +69,6 @@ This tool helps recruiters and hiring managers quickly evaluate how well a candi
     
 
 5. **Get Results**: The tool will analyze the CV against the job description and provide a match score and detailed feedback.
-6. **Receive Feedback**: Enter your email to get a detailed report sent directly to you or to receive CVs that meet your conditions.
 
 
 Give it a try to see how well a candidate fits your job requirements!
