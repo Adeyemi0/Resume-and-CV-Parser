@@ -45,7 +45,6 @@ I want the response in one single string having the structure
 st.title("Resume and Job Description Matcher")
 
 st.markdown("""
-### Welcome to the CV Analysis and Matching Tool!
 
 This tool helps recruiters and hiring managers quickly evaluate how well a candidate's CV matches a job description. Here's how to use it:
 
@@ -158,12 +157,3 @@ if uploaded_file and api_key:
             st.write(f"**Areas Needing Improvement**: {response['AreasNeedingImprovement']}")
 else:
     st.write("Please upload a PDF or DOCX file.")
-
-# Feedback form link
-st.markdown("""
-### We Value Your Feedback!
-
-We would appreciate it if you could take a few minutes to provide your feedback on the tool. Your insights will help us improve and enhance your experience.
-
-[**Please fill out the feedback form by clicking here**](https://docs.google.com/forms/d/e/1FAIpQLSc2wpsIgU_c9cGEXQkgWxvpbIaz26oBLKlcmPRZAQMzXgoeLA/viewform?usp=sf_link)
-""")
