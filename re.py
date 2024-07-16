@@ -138,22 +138,22 @@ if uploaded_file and api_key:
 
         # Display results
         st.header(uploaded_file.name)
-        st.write(f"**Candidate Name**: {response['CandidateName']}")
-        st.write(f"**Overall Score**: {response['OverallScore']}")
-        st.write(f"**Experience Score**: {response['ExperienceScore']}")
-        if float(response['ExperienceScore'].strip('%')) < 80:
-            st.write(f"**Additional Experience Needed**: {response['AdditionalExperienceNeeded']}")
-        st.write(f"**Skills Score**: {response['SkillsScore']}")
-        if float(response['SkillsScore'].strip('%')) < 80:
-            st.write(f"**Additional Skills Needed**: {response['AdditionalSkillsNeeded']}")
-        st.write(f"**Education Match**: {response['EducationMatch']}")
-        if float(response['EducationMatch'].strip('%')) < 80:
-            st.write(f"**Additional Education Needed**: {response['AdditionalEducationNeeded']}")
-        st.write(f"**Certification Match**: {response['CertificationMatch']}")
-        if float(response['CertificationMatch'].strip('%')) < 80:
-            st.write(f"**Additional Certifications Needed**: {response['AdditionalCertificationsNeeded']}")
-        st.write(f"**Quantifiable Results Match**: {response['QuantifiableResultsMatch']}")
-        if float(response['QuantifiableResultsMatch'].strip('%')) < 80:
-            st.write(f"**Areas Needing Improvement**: {response['AreasNeedingImprovement']}")
+        st.write(f"**Candidate Name**: {response.get('CandidateName', 'N/A')}")
+        st.write(f"**Overall Score**: {response.get('OverallScore', 'N/A')}")
+        st.write(f"**Experience Score**: {response.get('ExperienceScore', 'N/A')}")
+        if 'ExperienceScore' in response and float(response['ExperienceScore'].strip('%')) < 80:
+            st.write(f"**Additional Experience Needed**: {response.get('AdditionalExperienceNeeded', 'N/A')}")
+        st.write(f"**Skills Score**: {response.get('SkillsScore', 'N/A')}")
+        if 'SkillsScore' in response and float(response['SkillsScore'].strip('%')) < 80:
+            st.write(f"**Additional Skills Needed**: {response.get('AdditionalSkillsNeeded', 'N/A')}")
+        st.write(f"**Education Match**: {response.get('EducationMatch', 'N/A')}")
+        if 'EducationMatch' in response and float(response['EducationMatch'].strip('%')) < 80:
+            st.write(f"**Additional Education Needed**: {response.get('AdditionalEducationNeeded', 'N/A')}")
+        st.write(f"**Certification Match**: {response.get('CertificationMatch', 'N/A')}")
+        if 'CertificationMatch' in response and float(response['CertificationMatch'].strip('%')) < 80:
+            st.write(f"**Additional Certifications Needed**: {response.get('AdditionalCertificationsNeeded', 'N/A')}")
+        st.write(f"**Quantifiable Results Match**: {response.get('QuantifiableResultsMatch', 'N/A')}")
+        if 'QuantifiableResultsMatch' in response and float(response['QuantifiableResultsMatch'].strip('%')) < 80:
+            st.write(f"**Areas Needing Improvement**: {response.get('AreasNeedingImprovement', 'N/A')}")
 else:
     st.write("Please upload a PDF or DOCX file.")
