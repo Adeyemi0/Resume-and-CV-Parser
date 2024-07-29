@@ -75,7 +75,7 @@ Give it a try to see how well a candidate fits your job requirements!
 """)
 
 # Input field for API key
-api_key = st.text_input("Enter your API Key", type="password", help="Please enter your API key to use the tool.")
+api_key = 'AIzaSyASHfG_kz_UCB5JyvGmAOl-xJXcgaqQJX4'
 if not api_key:
     st.warning("Please enter your API key to proceed.")
 
