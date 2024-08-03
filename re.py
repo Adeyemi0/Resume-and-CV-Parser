@@ -75,7 +75,7 @@ Give it a try to see how well a candidate fits your job requirements!
 """)
 
 # Input field for API key
-api_key = 'AIzaSyASHfG_kz_UCB5JyvGmAOl-xJXcgaqQJX4'
+api_key = ''
 if not api_key:
     st.warning("Please enter your API key to proceed.")
 
